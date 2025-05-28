@@ -1,13 +1,13 @@
 # Regression Algorithms from Scratch
 
-This repository demonstrates **Linear Regression** and **Logistic Regression** implemented from scratch using NumPy, with detailed training, evaluation, and visualisation. The goal is to provide a clear, educational look at how these foundational machine learning algorithms work under the hood, without relying on high-level libraries for model fitting.
+This repository demonstrates **Linear Regression** and **Logistic Regression** implemented from scratch using NumPy, with detailed training, evaluation, and visualisation. The goal is to provide a clear, educational look at how these foundational machine learning algorithms work under the hood for model fitting.
 
 ---
 
 ## Contents
 
-- [`LR_code.ipynb`](IDC410_Assign01_MS21169/LR_code.ipynb): Linear Regression from scratch (for continuous targets)
-- [`Logistic.ipynb`](IDC410_Assign01_MS21169/Logistic.ipynb): Logistic Regression from scratch (for binary classification)
+- [`LR_code.ipynb`](https://github.com/KrishnaAggarwal2003/Regression-Algorithms-from-Scratch/blob/main/LR_code.ipynb): Linear Regression from scratch (for continuous targets)
+- [`Logistic.ipynb`](https://github.com/KrishnaAggarwal2003/Regression-Algorithms-from-Scratch/blob/main/Logistic.ipynb): Logistic Regression from scratch (for binary classification)
 
 ---
 
@@ -29,7 +29,7 @@ This repository demonstrates **Linear Regression** and **Logistic Regression** i
 2. **Model Training:**  
    - Custom `LinearRegression` class with manual gradient descent.
    - Updates both coefficients and intercept.
-   - Early stopping if cost converges.
+   - Early stopping if the cost converges.
 
 3. **Evaluation & Visualization:**  
    - Calculates MSE, MAE, and R² on the test set.
@@ -45,7 +45,7 @@ Mean-squared Error: 2.2531
 Mean-Absolute Error: 1.1962
 R² score (Accuracy): 89.0123%
 ```
-
+![Image](https://github.com/user-attachments/assets/7a8ec618-25b8-4a87-a9f8-71b34d528a58)
 ---
 
 ## 2. Logistic Regression (`Logistic.ipynb`)
@@ -137,8 +137,7 @@ pip install numpy scikit-learn matplotlib seaborn tqdm pandas
 
 ## 7. License
 
-This repository is for educational purposes.
+This repository is licensed under the MIT License.
+It is intended for educational and research purposes and demonstrates the inner workings of linear and logistic regression, including gradient descent, regularisation techniques, and performance evaluation metrics.
 
 ---
-
-**Explore, learn, and modify the code to deepen your understanding of regression algorithms!**

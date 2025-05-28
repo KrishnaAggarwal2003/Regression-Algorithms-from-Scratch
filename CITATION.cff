@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it using the metadata below."
+title: "Regression Algorithms from Scratch"
+authors:
+  - family-names: Aggarwal
+    given-names: Krishna
+    affiliation: Your Affiliation or University
+date-released: 2025-05-28
+version: "1.0.0"
+repository-code: https://github.com/KrishnaAggarwal2003/Regression-Algorithms-from-Scratch
+license: MIT

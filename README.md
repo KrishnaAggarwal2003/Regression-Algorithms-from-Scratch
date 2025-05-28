@@ -96,6 +96,7 @@ Epoch 0/2000, Cost: 0.9063, Accuracy: 61.18%
 Epoch 1999/2000, Cost: 0.5265, Accuracy: 88.98%
 ```
 Classification Report
+
 ![Image](https://github.com/user-attachments/assets/aabc34f2-17ca-47be-b7e2-8bdb7de61fdf)
 
 ---

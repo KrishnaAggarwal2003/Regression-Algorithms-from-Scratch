@@ -102,25 +102,32 @@ Classification Report
 
 ![Image](https://github.com/user-attachments/assets/86f6cedb-e228-4b73-a7fa-fa6e91e81e11)
 
-The "Loss Curve for Logistic Regression" illustrates the model's optimization process. The rapid decrease in loss followed by its convergence to a stable minimum demonstrates effective training and efficient parameter optimization, indicating the model successfully learned from the data and reached a state of optimal performance.
+The "Loss Curve for Logistic Regression" illustrates the model's optimisation process. The rapid decrease in loss followed by its convergence to a stable minimum demonstrates effective training and efficient parameter optimisation, indicating the model successfully learned from the data and reached a state of optimal performance.
 
 ![Image](https://github.com/user-attachments/assets/cdbe07b0-dbaa-4435-b9ee-63b80dc07f1f)
 
 The plot above shows the progression of model accuracy over 2000 training iterations. Initially, accuracy increases rapidly, indicating that the model is learning effectively during the early phase of training. Around iteration 500, accuracy begins to plateau near 0.89, suggesting the model has reached convergence. After this point, the performance stabilizes with minimal fluctuation, reflecting a well-trained model with consistent accuracy.
 
 
-Confusion Matrix
+**Confusion Matrix**
 
 ![Image](https://github.com/user-attachments/assets/1068ab18-b0fa-49b5-b663-4afac3e5cd06)
 
-The confusion matrix summarizes the classification performance of the model on the test dataset:
+The confusion matrix summarises the classification performance of the model on the test dataset:
 - True Positives (1 predicted as 1): 1800
 - True Negatives (0 predicted as 0): 1721
 - False Positives (0 predicted as 1): 291
 - False Negatives (1 predicted as 0): 188
+
 The model demonstrates strong classification performance for both classes, with a relatively low number of misclassifications. It handles class 1 slightly better than class 0, as indicated by fewer false negatives. This matrix reinforces the overall high accuracy observed during training.
 
+**ROC curve**
 
+![Image](https://github.com/user-attachments/assets/25511e4c-b3e0-499b-8050-c3a8535fb95a)
+
+
+The ROC (Receiver Operating Characteristic) curve visualises the model's diagnostic ability across various threshold settings. The curve shows a strong upward trajectory with an Area Under the Curve (AUC) of 0.89, indicating that the model has high discriminative power in distinguishing between the two classes.
+An AUC close to 1.0 reflects a robust classifier, and the observed value of 0.89 suggests that the model maintains an excellent balance between sensitivity (true positive rate) and specificity (false positive rate).
 
 
 ---

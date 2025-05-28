@@ -129,33 +129,9 @@ The model demonstrates strong classification performance for both classes, with 
 The ROC (Receiver Operating Characteristic) curve visualises the model's diagnostic ability across various threshold settings. The curve shows a strong upward trajectory with an Area Under the Curve (AUC) of 0.89, indicating that the model has high discriminative power in distinguishing between the two classes.
 An AUC close to 1.0 reflects a robust classifier, and the observed value of 0.89 suggests that the model maintains an excellent balance between sensitivity (true positive rate) and specificity (false positive rate).
 
-
 ---
 
-## 3. Visualizations
-
-Both notebooks include rich visualisations:
-- **Linear Regression:**  
-  - Predicted vs. actual scatter plot  
-  - Residuals histogram  
-  - Bar plots comparing true and learned coefficients
-
-- **Logistic Regression:**  
-  - Loss and accuracy curves  
-  - Confusion matrix  
-  - ROC curve with AUC
-
----
-
-## 4. How to Use
-
-1. Clone the repository.
-2. Open the notebooks in Jupyter or VS Code.
-3. Run all cells to see data generation, model training, and result analysis.
-
----
-
-## 5. Educational Value
+## 3. Educational Value
 
 - **No high-level model fitting:** All learning logic is implemented manually.
 - **Step-by-step:** Each notebook walks through data creation, model logic, training, and evaluation.
@@ -163,7 +139,7 @@ Both notebooks include rich visualisations:
 
 ---
 
-## 6. Requirements
+## 4. Requirements
 
 - Python 3.x
 - NumPy
@@ -177,10 +153,9 @@ Install requirements with:
 ```bash
 pip install numpy scikit-learn matplotlib seaborn tqdm pandas
 ```
-
 ---
 
-## 7. License
+## 5. License
 
 This repository is licensed under the MIT License.
 It is intended for educational and research purposes and demonstrates the inner workings of linear and logistic regression, including gradient descent, regularisation techniques, and performance evaluation metrics.

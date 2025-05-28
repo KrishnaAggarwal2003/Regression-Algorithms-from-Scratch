@@ -49,13 +49,7 @@ R² score (Accuracy): 99.9647%
 ```
 The model achieved excellent results. With a very high R² score of 99.9647%, it explains almost all of the variance in the Y data. The low Mean Squared Error (3.6998) and Mean Absolute Error (1.5285) relative to the wide range of the Y data (754.9) further confirm the model's high accuracy and small prediction errors.
 
-![Image](https://github.com/user-attachments/assets/7a8ec618-25b8-4a87-a9f8-71b34d528a58)
-
-
-
-
-
-
+![Plot](https://github.com/user-attachments/assets/7a8ec618-25b8-4a87-a9f8-71b34d528a58)
 
 The graph clearly shows that the blue predicted points cluster tightly around the red "Ideal Fit" line. This strong alignment visually confirms the model's excellent performance, as indicated by the high R² score (99.9647%) and low error metrics previously discussed. The model's predictions are remarkably close to the true values across the entire range of data.
 ---

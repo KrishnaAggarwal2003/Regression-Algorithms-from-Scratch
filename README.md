@@ -104,6 +104,23 @@ Classification Report
 
 The "Loss Curve for Logistic Regression" illustrates the model's optimization process. The rapid decrease in loss followed by its convergence to a stable minimum demonstrates effective training and efficient parameter optimization, indicating the model successfully learned from the data and reached a state of optimal performance.
 
+![Image](https://github.com/user-attachments/assets/cdbe07b0-dbaa-4435-b9ee-63b80dc07f1f)
+
+The plot above shows the progression of model accuracy over 2000 training iterations. Initially, accuracy increases rapidly, indicating that the model is learning effectively during the early phase of training. Around iteration 500, accuracy begins to plateau near 0.89, suggesting the model has reached convergence. After this point, the performance stabilizes with minimal fluctuation, reflecting a well-trained model with consistent accuracy.
+
+
+Confusion Matrix
+
+![Image](https://github.com/user-attachments/assets/1068ab18-b0fa-49b5-b663-4afac3e5cd06)
+
+The confusion matrix summarizes the classification performance of the model on the test dataset:
+- True Positives (1 predicted as 1): 1800
+- True Negatives (0 predicted as 0): 1721
+- False Positives (0 predicted as 1): 291
+- False Negatives (1 predicted as 0): 188
+The model demonstrates strong classification performance for both classes, with a relatively low number of misclassifications. It handles class 1 slightly better than class 0, as indicated by fewer false negatives. This matrix reinforces the overall high accuracy observed during training.
+
+
 
 
 ---

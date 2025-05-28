@@ -99,6 +99,13 @@ Classification Report
 
 ![Image](https://github.com/user-attachments/assets/aabc34f2-17ca-47be-b7e2-8bdb7de61fdf)
 
+
+![Image](https://github.com/user-attachments/assets/86f6cedb-e228-4b73-a7fa-fa6e91e81e11)
+
+The "Loss Curve for Logistic Regression" illustrates the model's optimization process. The rapid decrease in loss followed by its convergence to a stable minimum demonstrates effective training and efficient parameter optimization, indicating the model successfully learned from the data and reached a state of optimal performance.
+
+
+
 ---
 
 ## 3. Visualizations

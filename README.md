@@ -52,8 +52,9 @@ The model achieved excellent results. With a very high R² score of 99.9647%, it
 ![Plot](https://github.com/user-attachments/assets/7a8ec618-25b8-4a87-a9f8-71b34d528a58)
 
 
----
 The graph clearly shows that the blue predicted points cluster tightly around the red "Ideal Fit" line. This strong alignment visually confirms the model's excellent performance, as indicated by the high R² score (99.9647%) and low error metrics previously discussed. The model's predictions are remarkably close to the true values across the entire range of data.
+
+---
 ## 2. Logistic Regression (`Logistic.ipynb`)
 
 ### Overview

@@ -35,7 +35,7 @@ This repository demonstrates **Linear Regression** and **Logistic Regression** i
    - Calculates MSE, MAE, and R² on the test set.
    - Plots predicted vs. actual values, residual distribution, and compares true vs. learned coefficients.
 
-### Example Output
+### Output obtained from Test-data
 
 ```
 Epoch 0/500, Cost: 2.6241, Accuracy: -181.53%
@@ -53,6 +53,10 @@ The model achieved excellent results. With a very high R² score of 99.9647%, it
 
 
 The graph clearly shows that the blue predicted points cluster tightly around the red "Ideal Fit" line. This strong alignment visually confirms the model's excellent performance, as indicated by the high R² score (99.9647%) and low error metrics previously discussed. The model's predictions are remarkably close to the true values across the entire range of data.
+
+![Image](https://github.com/user-attachments/assets/295a6fcd-8ba1-4312-800d-b681ff293368)
+
+This "Distribution of Residuals" histogram demonstrates the model's excellent performance by showing that its errors are normally distributed and centered around zero. This ideal distribution indicates that most predictions are highly accurate with small, unbiased errors, reinforcing the model's overall robustness and reliability
 
 ---
 ## 2. Logistic Regression (`Logistic.ipynb`)

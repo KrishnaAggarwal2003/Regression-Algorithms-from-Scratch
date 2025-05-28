@@ -56,7 +56,12 @@ The graph clearly shows that the blue predicted points cluster tightly around th
 
 ![Image](https://github.com/user-attachments/assets/295a6fcd-8ba1-4312-800d-b681ff293368)
 
-This "Distribution of Residuals" histogram demonstrates the model's excellent performance by showing that its errors are normally distributed and centered around zero. This ideal distribution indicates that most predictions are highly accurate with small, unbiased errors, reinforcing the model's overall robustness and reliability
+This "Distribution of Residuals" histogram demonstrates the model's excellent performance by showing that its errors are normally distributed and centred around zero. This ideal distribution indicates that most predictions are highly accurate with small, unbiased errors, reinforcing the model's overall robustness and reliability.
+
+
+![Image](https://github.com/user-attachments/assets/c9dcc4cc-be4c-4ff0-8558-b8668d7f6110)
+
+This graph visually confirms the model's success in learning the underlying data relationships, as the "Learned Coefficients" (black bars) closely mirror the "Actual Coefficients" (blue bars) in both magnitude and direction for each feature variable. This strong alignment demonstrates the model's high accuracy in identifying the true influence of each feature on the target.
 
 ---
 ## 2. Logistic Regression (`Logistic.ipynb`)

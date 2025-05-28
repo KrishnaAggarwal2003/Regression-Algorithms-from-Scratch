@@ -38,14 +38,19 @@ This repository demonstrates **Linear Regression** and **Logistic Regression** i
 ### Example Output
 
 ```
-Epoch 0/500, Cost: 0.9063, Accuracy: 61.18%
+Epoch 0/500, Cost: 2.6241, Accuracy: -181.53%
 ...
-Epoch 499/500, Cost: 0.5265, Accuracy: 88.98%
-Mean-squared Error: 2.2531
-Mean-Absolute Error: 1.1962
-R² score (Accuracy): 89.0123%
+Epoch 499/500, Cost: 0.0003, Accuracy: 99.97%
+
+Range of Y data: -354.16 to 400.74, i.e. 754.9
+Mean-squared Error: 3.6998
+Mean-Absolute Error: 1.5285
+R² score (Accuracy): 99.9647%
 ```
+The model achieved excellent results. With a very high R² score of 99.9647%, it explains almost all of the variance in the Y data. The low Mean-Squared Error (3.6998) and Mean-Absolute Error (1.5285) relative to the wide range of the Y data (754.9) further confirm the model's high accuracy and small prediction errors.
+
 ![Image](https://github.com/user-attachments/assets/7a8ec618-25b8-4a87-a9f8-71b34d528a58)
+The graph clearly shows that the blue predicted points cluster very tightly around the red "Ideal Fit" line. This strong alignment visually confirms the model's excellent performance, as indicated by the high R² score (99.9647%) and low error metrics previously discussed. The model's predictions are remarkably close to the true values across the entire range of data.
 ---
 
 ## 2. Logistic Regression (`Logistic.ipynb`)

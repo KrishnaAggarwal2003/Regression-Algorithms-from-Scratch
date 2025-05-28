@@ -88,18 +88,15 @@ This graph visually confirms the model's success in learning the underlying data
    - Classification report (precision, recall, f1-score, accuracy).
    - Plots: loss curve, accuracy curve, confusion matrix, ROC curve with AUC.
 
-### Example Output
+### Output from Test-data
 
 ```
-Epoch 0/2000, Cost: 0.6931, Accuracy: 50.00%
+Epoch 0/2000, Cost: 0.9063, Accuracy: 61.18%
 ...
-Epoch 1999/2000, Cost: 0.3265, Accuracy: 89.12%
-Classification Report:
-              precision    recall  f1-score   support
-           0       0.90      0.86      0.88      2012
-           1       0.86      0.91      0.88      1988
-    accuracy                           0.88      4000
+Epoch 1999/2000, Cost: 0.5265, Accuracy: 88.98%
 ```
+Classification Report
+![Image](https://github.com/user-attachments/assets/aabc34f2-17ca-47be-b7e2-8bdb7de61fdf)
 
 ---
 
